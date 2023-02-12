@@ -7,9 +7,8 @@ public class Main {
         int bonus;
         if (depositAccount > 1_000) {
             bonus = depositAccount / 100;
-        }
-        else {
-            bonus =0;
+        } else {
+            bonus = 0;
         }
         int balance = (score + depositAccount + bonus);
         System.out.println("Спасибо за ваш платеж. Ваш баланс составляет: " + balance + " руб. Ваш бонус: " + bonus + " руб.");
