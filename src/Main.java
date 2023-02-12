@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int score = 2;
-        int depositAccount = 4_450;
+        int depositAccount = 4_500;
         int bonus;
         if (depositAccount > 1_000) {
             bonus = depositAccount / 100;
